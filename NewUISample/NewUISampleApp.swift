@@ -8,6 +8,7 @@
 import SwiftUI
 import SwiftData
 
+@available(iOS 17, *)
 @main
 struct NewUISampleApp: App {
     var sharedModelContainer: ModelContainer = {
